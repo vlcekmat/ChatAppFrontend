@@ -1,6 +1,6 @@
 <script>
-  import MessageEditor from "@/components/MessageEditor.vue";
-  import Messages from "@/components/Messages.vue";
+  import MessageEditor from "./components/MessageEditor.vue";
+  import Messages from "./components/Messages.vue";
   export default {
     name: "App",
     components: {
