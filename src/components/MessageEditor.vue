@@ -13,7 +13,7 @@ export default {
   methods: {
     updateMessage() {
       if (this.message.message !== "")
-        axios.post("https/chat-with-mat-server.herokuapp.com/message",
+        axios.post("https://chat-with-mat-server.herokuapp.com/message",
             {
               author: this.User,
               message: this.message.message
