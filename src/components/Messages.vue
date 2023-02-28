@@ -25,7 +25,7 @@ export default {
   methods: {
     updateMessages: function() {
       axios
-          .get("http://localhost:3000/message")
+          .get("https/chat-with-mat-server.herokuapp.com/message")
           .then(response => {
             this.messages = [];
             response.data.forEach(message => {
